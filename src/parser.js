@@ -5,6 +5,7 @@ import HTMLLexer from './lexers/html-lexer.js'
 import JavascriptLexer from './lexers/javascript-lexer.js'
 import JsxLexer from './lexers/jsx-lexer.js'
 import VueLexer from './lexers/vue-lexer.js'
+import PhpLexer from './lexers/php-lexer.js'
 
 const lexers = {
   hbs: ['HandlebarsLexer'],
@@ -21,6 +22,8 @@ const lexers = {
 
   vue: ['VueLexer'],
 
+  php: ['PhpLexer'],
+
   default: ['JavascriptLexer'],
 }
 
@@ -30,6 +33,7 @@ const lexersMap = {
   JavascriptLexer,
   JsxLexer,
   VueLexer,
+  PhpLexer,
 }
 
 export default class Parser extends EventEmitter {
