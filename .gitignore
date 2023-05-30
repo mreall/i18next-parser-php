@@ -37,7 +37,7 @@ test/manual/fr
 coverage
 
 # build artifacts
-dist/
+#dist/
 
 # test artifacts
 test/broccoli/src/locales
